@@ -6,6 +6,7 @@ public class Program {
         Cup<Cacao> cupCacao = new Cup<>(new Cacao());
 
         cupCoffee.theDrink.getTheDrink(TypeCoffee.latte);
+        cupCoffee.theDrink.getTheDrink(TypeCoffee.americano);
         cupTea.theDrink.getTheDrink(TypeTea.fruit);
         cupCacao.theDrink.getTheDrink(TypeCacao.criollo);
 
